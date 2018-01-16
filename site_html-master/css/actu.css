@@ -1,0 +1,128 @@
+body
+{
+    background: url(../Image/fond_page_1.jpg);
+}
+
+#tete
+{
+  margin-top: -10px;
+  margin-left: -10px;
+  width: 101.1%;
+}
+
+#Logo
+{
+	width: 32em;
+  display: inline;
+}
+
+#barre_recherche
+{
+  margin-bottom: 1em;
+  padding-right: 5em;
+  border-radius: 5px;
+}
+
+#bouton_recherche
+{
+  background: url(../Image/loupe_recherche.png);
+  background-repeat: no-repeat;
+
+}
+
+.banniere
+{
+	display: inline;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 30px;
+}
+
+.banniere:hover
+{
+  background: rgba(0,0,0,0.5);
+}
+
+.bande
+{
+  border: 1px solid white;
+  margin: 1em;
+  margin-left: 0px;
+  padding-left: 2em;
+  background: rgba(255,255,255,0.8);
+  width: 97.8%;
+}
+
+.banniere a
+{
+  color: black;
+  text-decoration: none;
+}
+
+.reseau
+{
+  width: 50px;
+}
+
+#corps
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: Verdana, sans-serif;
+}
+
+#colonne2
+{
+  flex-grow: 2;
+}
+
+#colonne3
+{
+
+}
+
+#Titre
+{
+	font-size: 28px;
+}
+
+.ArticleTitre
+{
+  font-size: 20px;
+}
+
+.ImgActu
+{
+  float : left;
+  width:270px;
+  height:190px;
+}
+
+.colonne
+{
+  margin: 5px;
+  padding: 1em;
+  background: rgba(255,255,255,1);
+  border-radius: 5px;
+}
+
+footer
+{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#plan ul li
+{
+  padding: 3px;
+}
+
+#plan a
+{
+  color: black;
+  text-decoration: none;
+}

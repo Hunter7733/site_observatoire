@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Observatoire de Juvisy</title>
+        <link href="../css/club.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div  id="tete">
+            <a id="Lien_logo" href="accueil.html" ><img src="../Image/logo_transparent.png" alt="Logo" id="Logo"/></a>
+            <div class="bande">
+                <ul>
+          		    <li class="banniere"> <a href="https://www.stelvision.com/carte-ciel/" >Carte du ciel</a> </li>
+              		<li class="banniere"> <a href="../html/histoire.html" >Histoire</a> </li>
+              		<li class="banniere"> <a href="../html/actu.html" >Actualité</a> </li>
+              		<li class="banniere"> <a href="../html/club.html" >Club</a> </li>
+              		<li class="banniere"> <a href="../html/forum.html" >Forum</a> </li>
+              		<li class="banniere"> <a href="../html/contact.html" >Contact</a> </li>
+                  <input id="barre_recherche" type="text" placeholder="Rechercher">
+                  <input id="bouton_recherche" type="button" >
+                </ul>
+            </div>
+        </div>
+
+        <div id="corps">
+             <div class="colonne" id="colonne1">
+               <div class="texte">
+                 Prochains evenements : &nbsp &nbsp &nbsp &nbsp &nbsp <br><br> 01/12/2017 : Rencontre avec Thomas Pesquet <br> 04/12/2017 : Observation de la Superlune <br> 13/12/2017 : Observation de la pluie d'étoiles filantes des Géminides <br> 03/01/2018 : Observation de la pluie d'étoiles filantes des Quadrantides <br> 15/01/2018 : Visite à l'Agence Spatiale Européenne (ESA) <br><br><br><br><br><br><br><br><br>  
+               </div>
+             </div>
+             <div class="colonne" id="colonne2">
+               <div class="texte">
+               <strong> Bienvenue dans le club de l'Observatoire de Juvisy ! </strong><br><br> Le club est ouvert à tous, des plus jeunes comme aux plus agés, des debutants comme aux passionnés les plus chevronnés.<br> L'idée de ce club d'astronomes est de retrouver l'esprit de l'astronomie populaire, accessible aux plus grand nombres.<br> Il propose des avantages comme des accès anticipés à certains événements, des tarifs avantageux aux sorties que nous proposons ou encore un abonnement hebdomadaire à notre magazine partenaire "AstroVie". <br> Nous avons également un forum dans lequel les membres du club peuvent discuter de leur passion qui est l'astronomie et partager leurs connaissances ensemble dans un espace d'échange convivial. <br> Nous proposerons également très prochainement des nouveaux téléscopes pour les membres du club. Ils serviront pour pouvoir initié les novices qui souhaiteraient en apprendre davantage sur l'astronomie grâce à l'aide de nos instructeurs mais également pour ceux qui veulent simplement contempler le ciel. <br><img src="../Image/<br><br><br><br><br><br><br><br><br><br><br>
+               </div>
+             </div>
+             <div class="colonne" id="colonne3">
+               <div class="texte">
+
+                 <div id="logo_reseaux">
+                   <img src="../Image/logo_reseaux/facebook.png" alt="Facebook" class="reseau"/>
+                   <a href="https://twitter.com/ObsJuvisy?lang=fr"><img src="../Image/logo_reseaux/twitter.png" alt="Twitter" class="reseau"/></a>
+                   <img src="../Image/logo_reseaux/instagram.png" alt="Instagram" class="reseau"/>
+                   <img src="../Image/logo_reseaux/email.png" alt="Email" class="reseau"/>
+                 </div>
+				 Déjà inscrit ?<br> Connectez-vous pour accéder à votre espace personnel ! &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <br> 			
+			 <form method="post" action="traitement.php">
+			   <p>
+				   <label for="pseudo">Votre pseudo :</label>
+				   <input type="text" name="pseudo" id="pseudo" /><br/>
+				   <label for="pass">Votre mot de passe :</label>
+				   <input type="password" name="pass" id="pass" />	   
+			   </p>
+			   <br>
+			</form><a href="inscrire.html" > S'inscrire </a><br><br><br><br><br><br><br><br><br>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <ul>
+              <li><a href="Qui_somme_nous.html">Qui sommes nous?</a></li>
+            </ul>
+    </body>
+</html>

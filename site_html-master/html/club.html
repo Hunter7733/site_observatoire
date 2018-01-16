@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Observatoire de Juvisy</title>
+        <link href="../css/club.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div  id="tete">
+            <a id="Lien_logo" href="accueil.html" ><img src="../Image/logo_transparent.png" alt="Logo" id="Logo"/></a>
+            <div class="bande">
+                <ul>
+          		    <li class="banniere"> <a href="https://www.stelvision.com/carte-ciel/" >Carte du ciel</a> </li>
+              		<li class="banniere"> <a href="../html/histoire.html" >Histoire</a> </li>
+              		<li class="banniere"> <a href="../html/actu.html" >Actualité</a> </li>
+              		<li class="banniere"> <a href="../html/club.html" >Club</a> </li>
+              		<li class="banniere"> <a href="../html/forum.html" >Forum</a> </li>
+              		<li class="banniere"> <a href="../html/contact.html" >Contact</a> </li>
+                  <input id="barre_recherche" type="text" placeholder="Rechercher">
+                  <input id="bouton_recherche" type="button" >
+                </ul>
+            </div>
+        </div>
+
+        <div id="corps">
+             <div class="colonne" id="colonne1">
+               <div class="texte">
+                 Prochains evenements : &nbsp &nbsp &nbsp &nbsp &nbsp <br><br> 01/12/2017 : Rencontre avec Thomas Pesquet <br> 04/12/2017 : Observation de la Superlune <br> 13/12/2017 : Observation de la pluie d'étoiles filantes des Géminides <br> 03/01/2018 : Observation de la pluie d'étoiles filantes des Quadrantides <br> 15/01/2018 : Visite à l'Agence Spatiale Européenne (ESA) <br><br>
+                   <p>
+                     Plan du site:<br>
+                     <div id="plan">
+                       <ul class="niveau1">
+                          <li><a href="accueil.html">Accueil</a></li>
+                          <li class="sousmenu"><a href="histoire.html">Histoire</a>
+                             <ul class="niveau2">
+                                <li><a href="perso_importants.html">Personnages Importants</a></li>
+                                <li><a href="Pheno_astro.html">Phenomenes astronomiques</a></li>
+                                <li><a href="invention.html">Grandes inventions</a></li>
+                             </ul>
+                          </li>
+                          <li><a href="actu.html">Actualité</a></li>
+                            <ul class="niveau2">
+                              <li><a href="actu_obs.html">Observatoire</a></li>
+                              <li><a href="actu_france.html">France</a></li>
+                              <li><a href="actu_monde.html">Monde</a></li>
+                            </ul>
+                          <li class="sousmenu"><a href="club.html">Club</a>
+                             <ul class="niveau2">
+                                 <li><a href="galerie.html">Galerie</a></li>
+                                 <li><a href="inscription.html">Inscription</a></li>
+                                 <li><a href="connexion.html">Connexion</a></li>
+                              </ul>
+                          </li>
+                                <li><a href="forum.html">Forum</a></li>
+                                <ul class="niveau2">
+                                  <li><a href="actu_club.html">Actu du club</a></li>
+                                  <li><a href="Aide.html">Aide</a></li>
+                                  <li><a href="faq.html">FAQ</a></li>
+                                  <li><a href="conseil_d_achat.html">Conseil d'achat</a></li>
+                                </ul>
+                             </ul>
+                          </li>
+                       </ul>
+                     </div>
+               </div>
+             </div>
+             <div class="colonne" id="colonne2">
+               <div class="texte">
+               <strong> Bienvenue dans le club de l'Observatoire de Juvisy ! </strong><br><br> <img src="../Image/galaxy.jpg" alt="ImgClub" id="ImgClub"/> Le club est ouvert à tous, des plus jeunes comme aux plus agés, des debutants comme aux passionnés plus chevronnés.<br> L'idée de ce club d'astonomes est de retrouver l'esprit de l'astonomie populaire, accessible au plus grand nombre.<br> Il propose des avantages comme des accès anticipés à certains evenements, des tarifs avantageux aux sorties que nous proposons ou encore un abonnement hebdomadaire à notre magazine partenaire "AstroVie". <br> Nous avons également un forum dans lequel les membres du club peuvent discuter de leur passion qui est l'astronomie et partager leurs connaissances ensemble dans un espace d'échange convivial. <br> Nous proposerons également très prochainement des nouveaux téléscopes pour les membres du club. Ils serviront pour pouvoir initié les novices qui souhaiteraient en apprendre davantage sur l'astronomie grâce à l'aide de nos instructeurs mais également pour ceux qui veulent simplement contempler le ciel. <br><br><br><br><br><br><br><br>
+               <p>
+                 Nous avons une page dedié aux photos prises par les membres du club et celles des phenomenes astronomiqes importants de cette année. Voici la <a href="galerie.html">galerie</a></p>
+               </div>
+             </div>
+             <div class="colonne" id="colonne3">
+               <div class="texte">
+
+                 <div id="logo_reseaux">
+                   <img src="../Image/logo_reseaux/facebook.png" alt="Facebook" class="reseau"/>
+                   <a href="https://twitter.com/ObsJuvisy?lang=fr"><img src="../Image/logo_reseaux/twitter.png" alt="Twitter" class="reseau"/></a>
+                   <img src="../Image/logo_reseaux/instagram.png" alt="Instagram" class="reseau"/>
+                   <img src="../Image/logo_reseaux/email.png" alt="Email" class="reseau"/>
+                 </div>
+				 Déjà inscrit ?<br> Connectez-vous pour accéder à votre espace personnel ! &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <br>
+			 <form method="post" action="traitement.php">
+			   <p>
+				   <label for="pseudo">Votre pseudo :</label>
+				   <input type="text" name="pseudo" id="pseudo" /><br/>
+				   <label for="pass">Votre mot de passe :</label>
+				   <input type="password" name="pass" id="pass" />
+			   </p>
+			   <br>
+			</form><a href="inscrire.html" > S'inscrire </a><br><br><br><br><br><br><br><br><br>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <ul>
+              <li><a href="Qui_somme_nous.html">Qui sommes nous?</a></li>
+            </ul>
+    </body>
+</html>
